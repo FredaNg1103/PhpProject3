@@ -12,6 +12,8 @@ and open the template in the editor.
     <body>
         <?php
       
+      //actually this page is more for the admin to view the data entries,but since not doing admin control panel, just do it for the sake of enhancing my skills 
+      
         $dbc= mysqli_connect('localhost','root','');
         mysqli_select_db($dbc,'applicants');
         
