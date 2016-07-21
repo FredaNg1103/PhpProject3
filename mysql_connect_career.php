@@ -11,6 +11,9 @@ and open the template in the editor.
     </head>
     <body>
         <?php
+        
+        //purpose of creating database and table by coding is because in the case of using other people's computer
+        //by right click and run this file , the database and table will be generated
        
         if($dbc=mysqli_connect('localhost','root',''))
         {
